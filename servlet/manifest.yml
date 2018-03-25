@@ -1,0 +1,7 @@
+---
+applications:
+- name: hello-world
+  memory: 1G
+  random-route: true
+  instances: 1
+  path: target/servlet-1.0-SNAPSHOT.war
